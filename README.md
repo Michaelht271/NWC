@@ -23,7 +23,7 @@
 
 
 # CISCO
-- Để lưu tệp cấu hình đang chạy vào tệp cấu hình khởi động ```write memory``` or ```copy running-config startup-config```
+- Để lưu tệp cấu hình đang chạy vào tệp cấu hình khởi động ```write memory``` or ```copy running-config startup-config``` 
 - ```copy startup-config running-config``` sao chép cấu hình khởi động từ NVRAM vào cấu hình đang chạy RAM.
 - ```write erase``` or ```erase startup-config``` ==> xóa cấu hình
 - Default SVI on a Cisco switch ==> VLAN1
@@ -34,12 +34,12 @@
 
 
 # Question hay hỏi
-- purpose of message encoding --> to convert information to the appropriate form for transmission
+- the purpose of message encoding --> to convert information to the appropriate form for transmission
 - two benefits of using a layered network model:
     * It prevents technology in one layer from affecting other layers
     * It assists in protocol design
 - Purpose of protocols in data communications --> providing the rules required for a specific type of communication to occur
-- general term that is used to describe a piece of data at any layer of a networking model --> PDU (protocol data unit)
+- a general term that is used to describe a piece of data at any layer of a networking model --> PDU (protocol data unit)
 
 
 # Layer
@@ -51,7 +51,77 @@
 - flow control: quá trình quản lý tốc độ truyền dữ liệu giữa hai thiết bị để tránh tình trạng mất dữ liệu hoặc tràn dữ liệu.
 
 
-## Chapter 1 NetWork Today
+## Chapter 1 Network Today
+New Terms and Commands
+ • Peer-to-Peer File Sharing
+ • Small Office/Home Office or SOHO
+ • Medium to large network
+ • Server
+ • Client
+ • Peer-to-Peer network
+ • End device
+ • Intermediary device
+ • Medium
+ • Network Interface Card (NIC)
+ • Physical Port
+ • Interface
+ • Physical topology diagram
+ • Logical topology diagram
+ • Local Area Network (LAN)
+ • Wide Area Network (WAN)
+ • Internet
+ • Intranet
+ • Extranet
+ • Internet Service Provider (ISP)
+ • Converged networks
+ • Network architecture
+ • Fault-tolerant network
+ • Packet-switched network
+ • Circuit-switched network
+ • Scalable network
+ • Quality of Service (QoS)
+ • Network bandwidth
+ • Bring Your Own Device (BYOD)
+ • Collaboration 
+• Cloud computing
+ • Private clouds
+ • Hybrid clouds
+ • Public clouds
+ • Custom clouds
+ • Data center
+ • Smart home technology
+ • Powerline networking
+ • Wireless Internet Service 
+Provider (WISP)
+ • Network architecture
+  What did I learn in this module?
+ • Through the use of networks, we are connected like never before.
+ • All computers that are connected to a network and participate directly in network 
+communication are classified as hosts.
+ • Diagrams of networks often use symbols to represent the different devices and 
+connections that make up a network. 
+• A diagram provides an easy way to understand how devices connect in a large network.
+ • The two types of network infrastructures are Local Area Networks (LANs), and Wide Area 
+Networks (WANs).
+ • SOHO internet connections include cable, DSL, Cellular, Satellite, and Dial-up telephone. 
+• Business internet connections include Dedicated Leased Line, Metro Ethernet, Business 
+DSL, and Satellite.
+ 71
+ © 2019, 2021  Cisco and/or its affiliates. All rights reserved.   Cisco Confidential
+Module Practice and Quiz
+ What did I learn in this module? (Cont.)
+ • Network architecture refers to the technologies that support the infrastructure and the 
+programmed services and rules, or protocols, that move data across the network.
+ • There are four basic characteristics of network architecture: Fault Tolerance, Scalability, 
+Quality of Service (QoS), and Security.
+ • Recent networking trends that affect organizations and consumers: Bring Your Own Device 
+(BYOD), online collaboration, video communications, and cloud computing.
+ • There are several common external and internal threats to networks.
+ • Larger networks and corporate networks use antivirus, antispyware, and firewall filtering, but 
+they also have other security requirements: Dedicated firewall systems, Access control lists 
+(ACL), Intrusion prevention systems (IPS), and Virtual private networks (VPN)
+ • The Cisco Certified Network Associate (CCNA) certification demonstrates your knowledge of 
+foundational technologies
 1. Network Type
 - cable
     * Đặc điểm: Băng thông cao, luôn kết nối.
@@ -62,7 +132,7 @@
 - Cellular
     * Đặc điểm: Sử dụng mạng di động để kết nối Internet.
     * Mô tả: Cung cấp kết nối Internet thông qua mạng điện thoại di động.
-- Satellite
+- Satellite( Vệ tinh)
     * Đặc điểm: Lợi ích chính cho các khu vực nông thôn không có nhà cung cấp dịch vụ Internet.
     * Mô tả: Cung cấp kết nối Internet thông qua vệ tinh, hữu ích cho các khu vực mà các loại kết nối khác không khả dụng.
 - Dial-up telephone
@@ -157,7 +227,7 @@
     * Tunneling: Đóng gói gói tin IPv6 vào gói tin IPv4 để truyền qua mạng IPv4.
     * Translation: Sử dụng NAT64 để cho phép giao tiếp giữa thiết bị IPv6 và IPv4.
 - Các địa chỉ ipv6:
-    * IPv6 global unicast addresses (GUAs) - 2000->3fff : Toàn cầu
+    * IPv6 global unicast addresses (GUAs) - 2000->3fff: Toàn cầu
     * Unique Local Address (ULA) - fc00:: Địa chỉ riêng tư trong một mạng nội bộ (tương tự như địa chỉ IP private trong IPv4)
     * Link Local Address(LLA) - fe80::/10
     * Multicast - ff0x::
